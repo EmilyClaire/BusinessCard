@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="2"
+        android:src="@drawable/threads2" />
+
+    <TextView
+        android:text="Needle in a Haystack"
+        android:textSize="34sp"
+        android:textColor="#3F51B5"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:text="2262 Honolulu Ave, Montrose, CA 91020"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#1B5E20"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="16dp" />
+
+    <TextView
+        android:text="A local yarn and needlecraft shop that also has classes for young and old."
+        android:fontFamily="sans-serif-light"
+        android:textColor="#1B5E20"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2 "
+        android:paddingLeft="16dp" />
+
+</LinearLayout>
